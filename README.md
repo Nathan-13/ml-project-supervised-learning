@@ -30,6 +30,9 @@ At the end of the preliminary data preparation steps, the project proceeded to b
  * The performance of two machine learning models, Logistic Regression and Random Forest Classifier, was compared. Logistic Regression showed superior accuracy and precision, while Random Forest demonstrated proficiency in classification tasks with higher Recall and F1 score values.
  * Comparing the evaluation methods (Train/Test Split and the K-Fold Cross Validation), the performance metrics for both models have decreased when using K-Fold Cross Validation. This is not uncommon and can be because K-Fold Cross Validation provides a more robust estimate of model performance by averaging the metrics across multiple subsets of the data.
  * When considering selected features, Logistic Regression outperformed Random Forest regarding accuracy, precision, recall, F1 score, and ROC-AUC.
+
+## Conclusion
+From the machine learning models developed and the exploratory data analysis (EDA) conducted, we can clude that:
  * Overall, Logistic Regression emerged as the preferred model for this binary classification task. 
  * From a business perspective, this model can be utilized to determine the likelihood of a patient having diabetes based on specific diagnostic measurements.
 
