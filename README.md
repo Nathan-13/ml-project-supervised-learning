@@ -31,6 +31,7 @@ At the end of the preliminary data preparation steps, the project proceeded to b
  * Comparing the evaluation methods (Train/Test Split and the K-Fold Cross Validation), the performance metrics for both models have decreased when using K-Fold Cross Validation. This is not uncommon and can be because K-Fold Cross Validation provides a more robust estimate of model performance by averaging the metrics across multiple subsets of the data.
  * When considering selected features, Logistic Regression outperformed Random Forest regarding accuracy, precision, recall, F1 score, and ROC-AUC.
  * Overall, Logistic Regression emerged as the preferred model for this binary classification task. 
+ * From a business perspective, this model can be utilized to determine the likelihood of a patient having diabetes based on specific diagnostic measurements.
 
 ## Challenges 
 Several challenges were encountered during the project, including time constraints, decision-making regarding outlier and incorrect data handling, and selecting the most suitable machine learning models for analysis. 
